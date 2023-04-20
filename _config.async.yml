@@ -1,0 +1,86 @@
+# 主题模式 style-light style-dark auto
+theme:
+  switch: true
+  default: auto
+
+# 网站图标
+favicon:
+  logo: /assets/img/page/avatar.png
+  visibilitychange: true
+  showText: ๑乛◡乛๑来了，老弟！
+  hideText: 〒▽〒燕子，没你我怎么办！
+
+user:
+  name: bighjs
+  first_name: hjs
+  last_name: big
+  email: bighjs@yeah.net
+  domain: //bighjs.top
+  avatar: /assets/img/page/avatar.png
+  describe: 人生如逆旅，我亦是行人
+  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+
+top_bars:
+  - title: home
+    url: /
+  - title: archives
+    url: /archives/
+
+sidebar:
+  typedTextPrefix: see
+  typedText: ["see you, one day day"]
+  info: # 个人信息
+    - key: CITY
+      val: guangzhou
+    - key: AGE
+      val: 26
+    - key: WORK AGE
+      val: 5
+  social: # 社交地址
+    - name: github
+      icon: fab fa-github
+      url: https://github.com/bigHjs
+
+banner:
+  index:
+    type: slideshow
+    bgurl:
+      [
+        /assets/img/page/banner.png,
+        /assets/img/page/banner2.png,
+        /assets/img/page/banner3.png,
+      ]
+    bannerTitle: 思考题：<br>假如我一拳KO了自己，我是强还是弱？
+    bannerText: Hi my new friend!
+
+footer:
+  powered: #驱动
+    enable: true
+  beian: #备案
+    enable: false
+    icp:
+  live_time:
+    enable: true
+    prefix: footer.tips
+    start_time: 04/10/2022 17:00:00
+  custom_text:
+
+# 右下角悬浮按钮块。
+rightside:
+  readmode: true
+  aside: true
+
+# 分类卡片
+categorie_card:
+  enable: true
+  len: 3
+  list: ["css", "javascript"]
+# 文章目录
+toc:
+  enable: true
+  list_number: true #是否显示编号
+  max_depth: 3
+  min_depth: 1
+
+reward:
+  enable: false
