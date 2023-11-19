@@ -84,3 +84,5 @@ toc:
 
 reward:
   enable: false
+
+post_asset_folder: true
